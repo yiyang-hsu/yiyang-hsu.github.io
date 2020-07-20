@@ -1,0 +1,14 @@
+remote_theme: samarsault/plainwhite-jekyll
+
+plainwhite:
+  name: Yiyang Hsu
+  tagline: 许亦旸
+  date_format: "%b %-d, %Y"
+
+  portfolio_image: "assets/avatar.png"
+  social_links:
+    github: yiyang-hsu
+
+  sitemap: true
+  show_excerpts: true
+  html_lang: "en"

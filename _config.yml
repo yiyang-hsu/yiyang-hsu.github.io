@@ -8,7 +8,8 @@ plainwhite:
   portfolio_image: "assets/avatar.png"
   social_links:
     github: yiyang-hsu
+    twitter: F17AEnSkdODVNkB
 
   sitemap: true
   show_excerpts: true
-  html_lang: "en"
+  html_lang: "zh-cn"

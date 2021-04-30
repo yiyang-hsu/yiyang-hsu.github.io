@@ -2,6 +2,14 @@
 layout: default
 ---
 
+{%- if content -%}
+<div class="post-container">
+  <div class="post">
+      {{ content }}
+  </div>
+</div>
+{%- endif -%}
+
 {%- if page.title -%}
   <h1 class="page-heading">{{ page.title }}</h1>
 {%- endif -%}
@@ -49,7 +57,4 @@ layout: default
     {%- endfor -%}
   </ul>
 
-  <!-- <p class="feed-subscribe"><svg class="svg-icon orange">
-		<use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-	</svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p> -->
 {%- endif -%}
